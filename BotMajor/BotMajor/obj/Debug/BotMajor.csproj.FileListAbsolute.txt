@@ -1,0 +1,40 @@
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Bot Application.dll.config
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Bot Application.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Bot Application.pdb
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Autofac.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Chronic.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.Autofac.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Connector.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Newtonsoft.Json.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Net.Http.Formatting.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Web.Http.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Web.Http.WebHost.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Autofac.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.Autofac.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.Bot.Connector.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\Newtonsoft.Json.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Net.Http.Formatting.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Web.Http.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\System.Web.Http.WebHost.xml
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\cs\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\BotMajor.csprojResolveAssemblyReference.cache
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\Bot Application.dll
+c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\Bot Application.pdb
