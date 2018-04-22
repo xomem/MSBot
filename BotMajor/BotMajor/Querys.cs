@@ -9,13 +9,14 @@ namespace BotMajor
 {
     public static class Querys
     {
-        const string ConnectionAdres = @"Data Source=192.168.2.42;Initial Catalog=Temp;Persist Security Info=True;User ID=autosalesadmin;Password=itdeveloper;";
+        const string ConnectionAdres = @"data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\MainDatabase.mdf;MultipleActiveResultSets=True;";
+
 
         public static List<DataRow> cars = new List<DataRow>();
         public static string GetCarByChatId(string chatId)
         {
             string result = "";
-            var query = $"SELECT c.manufacturer, c.model,c.gosNumber FROM Car AS c INNER JOIN Client AS cli ON cli.ID = c.client WHERE cli.ChatNumber = '{chatId}';";
+            var query = $"SELECT c.manufacturer, c.model,c.gosNumber FROM Car AS c INNER JOIN Client AS cli ON cli.ID = c.ClientID WHERE cli.ChatNumber = '{chatId}';";
             using (SqlConnection connection = new SqlConnection(ConnectionAdres))
             {
                 connection.Open();
@@ -34,7 +35,7 @@ namespace BotMajor
         public static bool MoreOneCar(string chatId)
         {
             bool result = false;
-            var query = $"SELECT top 1 count(*) as count FROM dbo.Client AS c INNER JOIN dbo.car AS t ON t.client = c.ID WHERE c.ChatNumber = '{chatId}'; ";
+            var query = $"SELECT top 1 count(*) as count FROM Client AS c INNER JOIN dbo.car AS t ON t.ClientID = c.ID WHERE c.ChatNumber = '{chatId}'; ";
             using (SqlConnection connection = new SqlConnection(ConnectionAdres))
             {
                 connection.Open();
@@ -61,7 +62,7 @@ namespace BotMajor
         {
             string result = "";
             SqlConnection sqlConnection = new SqlConnection(ConnectionAdres);
-            var query = $"SELECT ti.TechnicalInspection FROM TechnicalInspection AS ti INNER JOIN Car AS c ON c.Id = ti.Id WHERE c.gosNumber = '{carNumber}';";
+            var query = $"SELECT ti.TIDate FROM TechnicalInspection AS ti INNER JOIN Car AS c ON c.Id = ti.Id WHERE c.gosNumber = N'{carNumber}';";
 
             SqlCommand nameComand = new SqlCommand(query, sqlConnection);
             sqlConnection.Open();
@@ -78,7 +79,7 @@ namespace BotMajor
         public static IEnumerable<Cars> GetCarsByChatID(string chatId)
         {
             SqlConnection sqlConnection = new SqlConnection(ConnectionAdres);
-            var query = $"select  car.id, car.manufacturer, car.model, car.gosNumber, client.Name, client.Surname, client.Phonenumber from [Client] as client INNER JOIN Car as car on car.client = client.ID where client.ChatNumber = N'{chatId}';";
+            var query = $"select  car.id, car.manufacturer, car.model, car.gosNumber, client.Name, client.Surname, client.Phonenumber from [Client] as client INNER JOIN Car as car on car.ClientID = client.ID where client.ChatNumber = N'{chatId}';";
 
             SqlCommand nameComand = new SqlCommand(query, sqlConnection);
             sqlConnection.Open();

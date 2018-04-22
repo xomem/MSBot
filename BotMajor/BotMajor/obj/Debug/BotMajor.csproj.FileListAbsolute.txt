@@ -38,3 +38,44 @@ c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\bin
 c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\BotMajor.csprojResolveAssemblyReference.cache
 c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\Bot Application.dll
 c:\users\goncharov_e\documents\visual studio 2015\Projects\BotMajor\BotMajor\obj\Debug\Bot Application.pdb
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Bot Application.dll.config
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Bot Application.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Bot Application.pdb
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Autofac.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Chronic.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Connector.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Newtonsoft.Json.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Net.Http.Formatting.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Web.Http.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Web.Http.WebHost.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Autofac.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.Bot.Connector.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\Newtonsoft.Json.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Net.Http.Formatting.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Web.Http.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\System.Web.Http.WebHost.xml
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\obj\Debug\BotMajor.csprojResolveAssemblyReference.cache
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\obj\Debug\BotMajor.csproj.CoreCompileInputs.cache
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\obj\Debug\Bot Application.dll
+C:\Users\SOVAJJ\Desktop\BotMajor\BotMajor\obj\Debug\Bot Application.pdb

@@ -14,7 +14,7 @@ namespace BotMajor.Dialogs
     {
 
         public static string number = "";
-        public static string chatId = "defa";
+        public static string chatId = "defadd";
         private const string CarInfo = "Информация о машине";
 
         private const string CallMaster = "Вызвать мастера";
@@ -50,7 +50,7 @@ namespace BotMajor.Dialogs
             }
             catch (TooManyAttemptsException ex)
             {
-                await context.PostAsync($"Упс! Слишком много попыток :( Но не волнуйтесь, я обрабатываю это исключение, и вы можете попробовать еще раз!");
+                await context.PostAsync($"Упс! Слишком много попыток :( Но не волнуйтесь, я обрабатываю это исключение, и вы можете попробовать еще раз!" + ex);
 
                 context.Wait(this.MessageReceivedAsync);
             }
@@ -78,9 +78,8 @@ namespace BotMajor.Dialogs
         {
             if (Querys.FirstUser(chatId))
             {
-                await context.PostAsync("Дайте доступ к Вашему номеру телефона");
 
-                await context.Forward(new RegisterDialog(), this.ResumeAfterRegistrationDialog, chatId, CancellationToken.None);
+               context.Call(new RegisterDialog(), this.ResumeAfterRegistrationDialog);
 
             }
             else
@@ -99,10 +98,10 @@ namespace BotMajor.Dialogs
         }
         private async Task ResumeAfterRegistrationDialog(IDialogContext context, IAwaitable<object> result)
         {
-            var ticketNumber = await result;
+            var number = await result;
 
-            //await context.PostAsync($"Thanks for contacting our support team. Your ticket number is {ticketNumber}.");
-            context.Wait(this.MessageReceivedAsync);
+            await context.PostAsync($"Спасибо. Вы зарегестрированны по номеру - {number}.");
+            //context.Wait(this.MessageReceivedAsync);
         }
     }
 }

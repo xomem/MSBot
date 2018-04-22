@@ -16,31 +16,30 @@ namespace BotMajor.Dialogs
         Verification verification = new Verification();
 
 
-        public Task StartAsync(IDialogContext context)
+        public async Task StartAsync(IDialogContext context)
         {
+            await context.PostAsync("Дайте доступ к Вашему номеру телефона");
             context.Wait(Registration);
-
-            return Task.CompletedTask;
         }
         
         
-        private async Task Registration(IDialogContext context, IAwaitable<object> result)
+        private async Task Registration(IDialogContext context, IAwaitable<IMessageActivity> result)
         {
+            var activity = await result as Activity;
 
-            string numberr = result.ToString();
-            await context.PostAsync(numberr);
-            if (verification.NumberValidation(result.ToString()))
+            string number = activity.Text;
+            await context.PostAsync(number);
+            if (verification.NumberValidation(number))
             {
-                string number = result.ToString();
-                if (Querys.RegistUser(number ,RootDialog.chatId))
+                if (Querys.RegistUser(number ,RootDialog.chatId)) 
                 {
-                    await context.PostAsync("Спасибо");
-                    MessagesController.userStage = MessagesController.UserStage.MainMenu;
+                    context.Done(number);
                 }
             }
             else
             {
                 await context.PostAsync("Номер введен не верно");
+                context.Wait(Registration);
             }
         }
     }
